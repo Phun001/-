@@ -8,7 +8,8 @@ os.rmdir(name) -- 删除目录
 os.system() -- 执行shell命令
 os.exit() -- 终止当前程序
 os.linesep -- 给出当前系统终止符, windows: '\r\n', linux: '\n', mac: '\r'
-
+os.pathsep -- 默认分割符";"
+os.curdir -- 当前文件夹
 
 "os.path"
 os.path.split() -- 切割最后一个目录, 返回一个元组
